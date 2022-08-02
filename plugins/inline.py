@@ -65,7 +65,7 @@ async def answer(bot, query):
         results.append(
             InlineQueryResultCachedDocument(
                 title=file.file_name,
-                document_file_id=file.file_id,
+                file_id=file.file_id,
                 caption=f_caption,
                 description=f'Size: {get_size(file.file_size)} | {file.caption}',
                 reply_markup=reply_markup))
@@ -108,7 +108,6 @@ def get_reply_markup(query):
         InlineKeyboardButton('TV/WEBSeriesBot', url='https://t.me/ProSearchXBot')],
         ]
     return InlineKeyboardMarkup(buttons)
-
 
 
 
