@@ -22,7 +22,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-        InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Proseriestelegrambot?startgroup=true')],[
+        InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Promoviestelegrambot?startgroup=true')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
         InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/+o-9tsVHK761lMGY1')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
@@ -44,7 +44,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-        InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Proseriestelegrambot?startgroup=true')],[
+        InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Promoviestelegrambot?startgroup=true')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
         InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/+o-9tsVHK761lMGY1')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
@@ -91,7 +91,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-        InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Proseriestelegrambot?startgroup=true')],[
+        InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Promoviestelegrambot?startgroup=true')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
         InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/+o-9tsVHK761lMGY1')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
