@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
         InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Proseriestelegrambot?startgroup=true')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
-        InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/ProsearchBOTS')],[
+        InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/+o-9tsVHK761lMGY1')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
         InlineKeyboardButton('MVSearchBOT 3', url='https://t.me/Prosearch4bot')],[
         InlineKeyboardButton('MVSearchBOT 4', url='https://t.me/Prosearch3bot'),
@@ -46,7 +46,7 @@ async def start(client, message):
         buttons = [[
         InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Proseriestelegrambot?startgroup=true')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
-        InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/ProsearchBOTS')],[
+        InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/+o-9tsVHK761lMGY1')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
         InlineKeyboardButton('MVSearchBOT 3', url='https://t.me/Prosearch4bot')],[
         InlineKeyboardButton('MVSearchBOT 4', url='https://t.me/Prosearch3bot'),
@@ -93,7 +93,7 @@ async def start(client, message):
         buttons = [[
         InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/Proseriestelegrambot?startgroup=true')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
-        InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/ProsearchBOTS')],[
+        InlineKeyboardButton('New Movie/Series Uploads', url='https://t.me/+o-9tsVHK761lMGY1')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
         InlineKeyboardButton('MVSearchBOT 3', url='https://t.me/Prosearch4bot')],[
         InlineKeyboardButton('MVSearchBOT 4', url='https://t.me/Prosearch3bot'),
