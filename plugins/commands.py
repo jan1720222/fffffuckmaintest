@@ -22,12 +22,11 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-        InlineKeyboardButton('🔎 SEARCH MOVIES 🔎', switch_inline_query_current_chat='')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
         InlineKeyboardButton('MVSearchBOT 3', url='https://t.me/Prosearch4bot')],[
         InlineKeyboardButton('MVSearchBOT 4', url='https://t.me/Prosearch3bot'),
-        InlineKeyboardButton('MVSearch BOT 5', url='https://t.me/Prosearch25bot')],[
+        InlineKeyboardButton('MVSearchBOT 5', url='https://t.me/Prosearch25bot')],[
         InlineKeyboardButton('♦️TV/WEB Series Search BOT 🔍', url='https://t.me/ProsearchXBot')],[
         InlineKeyboardButton('🤖Group Auto Movies BOT', url='https://t.me/Promoviestelegrambot')]
         ]
@@ -44,12 +43,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-        InlineKeyboardButton('🔎 SEARCH MOVIES 🔎', switch_inline_query_current_chat='')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
         InlineKeyboardButton('MVSearchBOT 3', url='https://t.me/Prosearch4bot')],[
         InlineKeyboardButton('MVSearchBOT 4', url='https://t.me/Prosearch3bot'),
-        InlineKeyboardButton('MVSearch BOT 5', url='https://t.me/Prosearch25bot')],[
+        InlineKeyboardButton('MVSearchBOT 5', url='https://t.me/Prosearch25bot')],[
         InlineKeyboardButton('♦️TV/WEB Series Search BOT 🔍', url='https://t.me/ProsearchXBot')],[
         InlineKeyboardButton('🤖Group Auto Movies BOT', url='https://t.me/Promoviestelegrambot')]
         ]
@@ -91,12 +89,11 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-        InlineKeyboardButton('🔎 SEARCH MOVIES 🔎', switch_inline_query_current_chat='')],[
         InlineKeyboardButton('🤖BOT Updates Channel', url='https://t.me/ProsearchBOTS')],[
         InlineKeyboardButton('MVSearchBOT 2', url='https://t.me/ProsearchRobot'),
         InlineKeyboardButton('MVSearchBOT 3', url='https://t.me/Prosearch4bot')],[
         InlineKeyboardButton('MVSearchBOT 4', url='https://t.me/Prosearch3bot'),
-        InlineKeyboardButton('MVSearch BOT 5', url='https://t.me/Prosearch25bot')],[
+        InlineKeyboardButton('MVSearchBOT 5', url='https://t.me/Prosearch25bot')],[
         InlineKeyboardButton('♦️TV/WEB Series Search BOT 🔍', url='https://t.me/ProsearchXBot')],[
         InlineKeyboardButton('🤖Group Auto Movies BOT', url='https://t.me/Promoviestelegrambot')]
         ]
